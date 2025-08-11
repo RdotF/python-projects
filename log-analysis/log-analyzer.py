@@ -17,7 +17,7 @@ def analyze_logs(log_file_path):
     print(sus_ip[sus_ip > 1]) # more than 1
 
 if __name__ == '__main__':
-    log_file = input('Enter the path to the log:') #firewall_logs_2022.csv
+    log_file = input('Enter the path to the log:') #firewall_logs_2022.csv - from git user: connorkeith93
     analyze_logs(log_file)
 
 
